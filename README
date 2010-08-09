@@ -1,0 +1,23 @@
+FabriKokki is an API between Fabric and Kokki.
+
+Fabric is a Python library and command-line tool for streamlining the use of
+SSH for application deployment or systems administration tasks.
+
+is at: http://docs.fabfile.org/
+
+Kokki is a system configuration management framework styled after Chef.
+
+Kokki is at: http://github.com/samuel/kokki
+
+My Kokki fork is at: http://github.com/ssteinerx/kokki
+
+My fork is much more likely to contain any changes to Kokki that are required
+to make FabriKokki work.
+
+Enjoy,
+
+S
+aka/Steve Steiner
+aka/ssteinerX
+aka/ssteinerX@gmail.com
+
