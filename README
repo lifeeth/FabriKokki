@@ -1,5 +1,21 @@
-FabriKokki is an API between Fabric and Kokki.
+What is FabriKokki?
+-------------------
+FabriKokki is an API between Fabric and Kokki.  It is hosted at Github at:
+http://github.com/ssteinerx/FabriKokki
 
+The purpose of FabriKokki is to allow installation of Kokki recipes on remote
+hosts from within Fabric without the need to manually install and/or update
+a Kokki installation on the remote system.
+
+Whether this is done by replacing the Kokki installation mechanism, or just
+hiding the machinery of Kokki has yet to be determined and really shouldn't
+matter.
+
+Bottom line: you can run Kokki recipes on remote hosts from within your
+Fabric fabfile.py.  Be happy.
+
+Dependencies:
+-------------
 Fabric is a Python library and command-line tool for streamlining the use of
 SSH for application deployment or systems administration tasks.
 
@@ -13,6 +29,7 @@ My Kokki fork is at: http://github.com/ssteinerx/kokki
 
 My fork is much more likely to contain any changes to Kokki that are required
 to make FabriKokki work.
+
 
 Enjoy,
 
