@@ -10,7 +10,8 @@ roles:
 
     web:
         description: Web node
-        parents: [base]
+        parents: [nginx_test]
         recipes: [example.web]
         override_attributes:
             example.web_port: 8080
+
