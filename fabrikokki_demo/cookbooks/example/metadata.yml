@@ -1,0 +1,6 @@
+description: Example cookbook
+attributes:
+    example.web_port:
+        display_name: Web port to listen on
+        description: Port number on which Apache should listen for new connections
+        default: 80
