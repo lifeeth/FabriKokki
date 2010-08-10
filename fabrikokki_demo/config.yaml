@@ -1,0 +1,16 @@
+cookbook_paths: ['/Users/ssteiner/Dropbox/work/kokki-cookbooks']
+provider: ubuntu
+
+roles:
+    nginx_test:
+        description: Nginx test
+        recipes: [nginx]
+        default_attributes:
+            nginx.web_port: 80
+
+    web:
+        description: Web node
+        parents: [base]
+        recipes: [example.web]
+        override_attributes:
+            example.web_port: 8080
