@@ -1,0 +1,5 @@
+August 10, 2010
+---------------
+
+Make a wrapper class that initializes one Kokki instance for a set of tests
+while making sure that Kokki's state doesn't become a dependency between tests

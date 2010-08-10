@@ -16,6 +16,7 @@ Fabric fabfile.py.  Be happy.
 
 Dependencies:
 -------------
+
 Fabric is a Python library and command-line tool for streamlining the use of
 SSH for application deployment or systems administration tasks.
 
@@ -25,10 +26,9 @@ Kokki is a system configuration management framework styled after Chef.
 
 Kokki is at: http://github.com/samuel/kokki
 
-My Kokki fork is at: http://github.com/ssteinerx/kokki
-
-My fork is much more likely to contain any changes to Kokki that are required
-to make FabriKokki work.
+Our Kokki fork is at: http://github.com/ssteinerx/kokki which is much more
+likely to contain any changes to Kokki that are required to make FabriKokki
+work.
 
 
 Enjoy,

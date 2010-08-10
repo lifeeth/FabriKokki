@@ -1,4 +1,4 @@
-cookbook_paths: ['/Users/ssteiner/Dropbox/work/kokki-cookbooks']
+cookbook_paths: ['cookbooks']
 provider: ubuntu
 
 roles:
