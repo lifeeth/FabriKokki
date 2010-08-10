@@ -47,13 +47,16 @@ To use FabriKokki, we recommend the following project layout::
         fabfile.py
         /recipes
             /recipe1
+                /recipes
+                /templates
 
 Our demo project follows this layout exactly.
 
 To actually run FabriKokki, you are actually leveraging the Fabric command to
-pull in specially written portions of Kokki that transparently convert local
-recipes to work remotely without having to install/copy everything in Kokki
-to the server which is its normal mode of action.
+pull in specially written replacements for portions of Kokki that
+transparently convert local recipes to work remotely without having to
+install/copy everything in Kokki to the server which is its normal mode of
+action.
 
 
 Operation
@@ -61,8 +64,8 @@ Operation
 
 .. todo:: finish this section
 
-    A FabriKokki setup is driven by two main files, the config.yaml and
-    fabfile.py.
+    A FabriKokki setup is driven by two main files, the fabfile.py and
+    config.yaml.
 
     A special import...brings in all the required support code from FabriKokki.
 .. todo:: document the special import

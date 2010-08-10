@@ -6,6 +6,11 @@
 from fabric.api import *
 import kokki
 import fabrikokki as fk
+from kokki.runner import Kokki
+
+fk.kokki = Kokki('config.yaml')
+
+print fk.kokki
 
 def _init_kokki(recipe_dir='./cookbooks'):
     """
@@ -15,6 +20,7 @@ def _init_kokki(recipe_dir='./cookbooks'):
             figure out what it has to do.
     """
     pass
+
 
 def install_recipe(recipe, params):
     pass
