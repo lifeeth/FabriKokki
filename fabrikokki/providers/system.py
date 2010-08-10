@@ -89,7 +89,7 @@ class DirectoryProvider(Provider):
         if not fabric.contrib.files.exists(path, use_sudo=True, verbose=False):
             self.log.info("Creating directory %s" % self.resource)
             if self.resource.recursive:
-                fabric.sudo('mkdir -p path ;' + 'chmod -R 755 ' + path)
+                fabric.sudo('mkdir -p' +  path + ' ;' + 'chmod -R 755 ' + path)
             else:
                 fabric.sudo('chmod 755 ' + path)
             self.resource.updated()
