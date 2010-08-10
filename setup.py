@@ -1,7 +1,7 @@
 import sys
 
 try:
-    from setuptools import setup
+    from setuptools import setup, find_packages
 except ImportError:
     print "Please instal distribute from http://pypi.python.org/pypi/distribute"
     print "before installing FabriKokki."
@@ -44,5 +44,5 @@ setup(name='fabrikokki',
                    'Topic :: System :: Software Distribution',
                    'Topic :: System :: Systems Administration',
                   ],
-        requires['fabric', 'kokki'],
+        requires = ['fabric', 'kokki'],
      )
