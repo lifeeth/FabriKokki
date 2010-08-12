@@ -6,6 +6,7 @@ problems with ``__init__.py`` (which is loaded by setup.py during installation,
 which in turn needs access to this version information.)
 
 NB: August 10, 2010, stolen directly from Fabric
+
 TODO: see if distutils' version stuff that I (ss) worked on a while ago ever
       matured
 """

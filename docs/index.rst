@@ -110,14 +110,9 @@ TOC
 .. toctree::
    :maxdepth: 2
 
+   contrib_guide
    resources
-
-
-TOC
-===
-
-.. toctree::
-   :maxdepth: 2
+   glossary
 
 Indices and tables
 ==================
