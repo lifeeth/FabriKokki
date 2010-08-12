@@ -1,5 +1,7 @@
 # FabriKokki init
 
+# Class should be moved out of here, obviously, at some point
+
 from kokki.runner import Kokki
 import kokki.providers
 
@@ -23,6 +25,8 @@ class FabriKokki(Kokki):
 
         # Just squirt our providers in there as if nothing happened
         kokki.providers.PROVIDERS['fabrikokki'] = fabrikokki
+
+        print "kokki.providers.PROVIDERS = ", kokki.providers.PROVIDERS
 
         # Mutilate the kokki environment to force it to use our stuff
         # I'm (ss) pretty sure the environment is bound during actual execution

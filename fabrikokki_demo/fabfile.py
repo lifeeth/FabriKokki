@@ -1,7 +1,9 @@
 # August 10, 2010 -- ss
 #
-#   Just getting it all to run, not pulling in any of our provider
-#   replacements.
+#   Just getting it all to run, the main FabriKokki code pulls in
+#   our provider replacements!
+#
+#   Not sure they're working yet...
 
 from fabric.api import *
 
