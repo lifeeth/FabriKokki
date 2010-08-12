@@ -5,16 +5,8 @@
 
 from fabric.api import *
 
-import kokki
-
 import fabrikokki as fk
 
-from kokki.runner import Kokki
-
-fk.kokki = Kokki('config.yaml')
-
-print "Here's your Kokki"
-fk.kokki._print()
 
 
 def _init_kokki(recipe_dir='./cookbooks'):
