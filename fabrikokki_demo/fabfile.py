@@ -4,12 +4,16 @@
 #   our provider replacements!
 #
 #   Not sure they're working yet...
+import logging
+import sys
 
 from fabric.api import *
 
 from fabrikokki import FabriKokki
 
 def cook_fabric():
+    logging.basicConfig(level=logging.DEBUG)
+
     print "Creating FabriKokki"
     fk = FabriKokki('config.yaml')
 
