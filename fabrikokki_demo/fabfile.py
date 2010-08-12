@@ -5,21 +5,17 @@
 
 from fabric.api import *
 
-import fabrikokki as fk
+from fabrikokki import FabriKokki
 
+def cook_fabric():
+    print "Creating FabriKokki"
+    fk = FabriKokki('config.yaml')
 
+    print "Here's your FabriKokki"
+    fk._print()
 
-def _init_kokki(recipe_dir='./cookbooks'):
-    """
-    Initializes our Kokki instance
+    print "Exiting!"
+    sys.exit(1)
 
-    TODO:   pull this out to the FabriKokki class and initialize that once we
-            figure out what it has to do.
-    """
-    pass
-
-
-def install_recipe(recipe, params):
-    pass
-
-_init_kokki()
+    # Haven't quite gotten this far, but works to here
+    kokki.run_roles(['nginx_test'])
